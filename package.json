@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile":"node ./Scripts/compile.js"
+    "compile":"node ./scripts/compile.js"
   },
   "keywords": [],
   "author": "",
