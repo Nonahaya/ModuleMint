@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "compile":"node ./Scripts/compile.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
+    "esbuild": "^0.21.5",
     "typescript": "^5.4.5"
   }
 }
