@@ -8,5 +8,4 @@ pro
   .action((modulename: string,opt:string) => /*something*/{})
 pro.command("remove <module>").aliases(["r","-r","--r"])
 .description("Remove Module")
-.action((modulename:string) => {})
 pro.parse();
